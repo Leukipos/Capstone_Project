@@ -13,4 +13,4 @@ You can then use the following commands:
 - `npm run start` to start the production build
 - `npm run test` to run the tests in watch mode (if available)
 
-(link to website)[http://takemyhand.vercel.app]
+[link to app](http://takemyhand.vercel.app)
