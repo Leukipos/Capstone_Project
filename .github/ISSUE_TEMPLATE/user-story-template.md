@@ -1,0 +1,31 @@
+---
+name: User Story template
+about: used for User Storys
+title: UserStory
+labels: ''
+assignees: ''
+
+---
+
+## Title
+
+## Value proposition
+
+As an <actor>
+I want a <feature>
+So that <benefit>
+
+## Description
+
+- Scribble / design or text
+- Precise, no unnecessary information
+
+## Acceptance criteria
+
+- [ ] What happens when an entry is empty?
+- [ ] How should something behave?
+- [ ] What is the text of an alert?
+
+## Tasks
+
+- [ ] List the tasks that need to be performed within the dev team
