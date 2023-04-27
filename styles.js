@@ -5,14 +5,7 @@ export default createGlobalStyle`
   *::before,
   *::after {
     box-sizing: border-box;
-    font-family: serif;
-  }
-
-  div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    font-family: sans-serif;
   }
 
   body {
@@ -22,7 +15,24 @@ export default createGlobalStyle`
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
-    margin-top: 20vh;
+    align-items: center;
  
+  }
+
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 `;

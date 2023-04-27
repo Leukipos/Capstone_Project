@@ -7,10 +7,11 @@ export default function HomePage() {
     <div>
       <h1>take my hand</h1>
       <p>hey.. schön dass du hier bist</p>
-      
-      <StyledButton type="button" >
+      <a href="./main">
+      <StyledButton type="button">
         los gehts..
       </StyledButton>
+      </a>
     </div>
   );
 };
