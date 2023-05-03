@@ -22,7 +22,13 @@ export default createGlobalStyle`
 
   .Dark{
     color: #334
+  }
 
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
   }
 
   ul{
