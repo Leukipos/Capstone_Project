@@ -12,7 +12,13 @@ export const StyledCard = styled.li`
     align-items: center;
     justify-content: center;
 
-:hover(
+:hover{
     cursor: pointer;
-)
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+:active{
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
 `

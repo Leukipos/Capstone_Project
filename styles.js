@@ -12,18 +12,17 @@ export default createGlobalStyle`
     margin: 0;
     background-color: #7D9EAD;
     color: #E3D9C3;
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 100;
  
   }
 
-  div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .Dark{
+    color: #334
+
   }
 
   ul{
@@ -34,5 +33,12 @@ export default createGlobalStyle`
     padding: 0;
     margin-top: 5rem;
     margin-bottom: 4rem;
+  }
+
+  h1{
+    color: #334;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-top: 5rem;
   }
 `;

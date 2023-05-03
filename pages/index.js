@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div>
       <h1>take my hand</h1>
-      <p>hey.. schön dass du hier bist</p>
+      <p className='Dark'>hey.. schön dass du hier bist</p>
       <StyledLink href="/main">
         los gehts...
       </StyledLink>

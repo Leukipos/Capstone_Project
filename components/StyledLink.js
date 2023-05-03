@@ -10,12 +10,9 @@ export const StyledLink = styled(Link)`
   height: 8rem;
   border-radius: 50%;
   background-color: #546391;
-  padding: 0.8rem;
   color: #EBE1CA;
   text-decoration: none;
-  font-weight: bold;
-  border: 0;
-  font-size: 1.2rem;
+  font-weight: 100;
   box-shadow: 0 0 25px 2px #EBE1CA, 0 0 5px 0 #ffffff, inset 0 0 25px 2px #EBE1CA;
   margin-top: 20vh;
 
