@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHead = styled.header`
+const StyledHeadBar = styled.header`
     position: fixed;
     top: 0;
     padding: 0;
@@ -16,3 +16,11 @@ export const StyledHead = styled.header`
     justify-content: center;
     box-shadow: 0 0 12px -1px rgba(0, 0, 0, 0.8);
 `
+
+export default function StyledHead(){
+    return(
+        // tbc -> Back-Button
+        <StyledHeadBar>take my hand</StyledHeadBar>
+        // tbc -> burgermenue
+    )
+}
