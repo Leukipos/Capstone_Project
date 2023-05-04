@@ -16,8 +16,8 @@ const StyledMarquee = styled.p`
 export default function Marquee(){
     return(
             <StyledMarquee>
-                "Wenn du das Gefühl hast, dass du am Ende bist, denke daran,
-                dass es nur der Anfang von etwas Neuem sein könnte."
+                Wenn du das Gefühl hast, dass du am Ende bist, denke daran,
+                dass es nur der Anfang von etwas Neuem sein könnte.
             </StyledMarquee>
     )
 }
