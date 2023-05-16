@@ -9,14 +9,14 @@ export default function Module() {
     const router = useRouter();
     const { slug } = router.query;
     const selectedModule = modules.find((module) => module.slug === slug);
-    console.log(selectedModule)
+    console.log(selectedModule.articles)
     return (
         <main>
             <StyledBackButton />
             <StyledHead />
             <StyledModules>
                 {selectedModule.articles.map((article) => (
-                    <StyledCard key={article.number}>
+                    <StyledCard key={article.id}>
                         <StyledCardTitle>{article.title}</StyledCardTitle>
                         <article>{article.text}</article>
                     </StyledCard>
