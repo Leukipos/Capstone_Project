@@ -5,16 +5,16 @@ import StyledFooter from '@/components/StyledFooter'
 import StyledHead from '@/components/StyledHead'
 import StyledBackButton from "@/components/StyledBackButton";
 
-export default async function Module() {
+export default function Module() {
     const router = useRouter();
     const { slug } = router.query;
-    const selectedModule = await modules.find((module) => module.slug === slug);
-    await console.log(selectedModule)
+    const selectedModule = modules.find((module) => module.slug === slug);
+    console.log(selectedModule)
     return (
         <main>
             <StyledBackButton />
             <StyledHead />
-            <StyledModules><h1>{selectedModule.id + ". " + selectedModule.slug}</h1>
+            <StyledModules>
                 {selectedModule.articles.map((article) => (
                     <StyledCard key={article.number}>
                         <StyledCardTitle>{article.title}</StyledCardTitle>
