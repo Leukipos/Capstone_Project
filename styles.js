@@ -23,4 +23,14 @@ export default createGlobalStyle`
     display: flex;
     justify-content: center;
   }
+
+  h1{
+    font-size: 1.8rem;
+    color: #334;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+
+  }
+
 `
