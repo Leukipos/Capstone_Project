@@ -23,4 +23,13 @@ export default createGlobalStyle`
     display: flex;
     justify-content: center;
   }
+
+  h1{
+    font-size: 1.8rem;
+    color: #334;
+    font-weight: 400;
+    margin: 0;
+
+  }
+
 `
