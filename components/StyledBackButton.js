@@ -13,6 +13,6 @@ color: #DDC;
 
 export default function StyledBackButton(){
     return(
-        <StyledLink href="/main">◀◀</StyledLink>
+        <StyledLink href="/main">⬅︎</StyledLink>
         )
 }
