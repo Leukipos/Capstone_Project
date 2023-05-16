@@ -9,7 +9,7 @@ export default function Module() {
     const router = useRouter();
     const { slug } = router.query;
     if (!slug) {
-        return <h1>Loading</h1>;
+        return <h1>...is loading</h1>;
       }
     const selectedModule = modules.find((module) => module.slug === slug);
     console.log(selectedModule.articles)
