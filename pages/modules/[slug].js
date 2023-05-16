@@ -6,11 +6,11 @@ import StyledHead from '@/components/StyledHead'
 import StyledBackButton from "@/components/StyledBackButton";
 
 
-export default function Module() {
+export default async function Module() {
     const router = useRouter();
     const { slug } = router.query;
-    const selectedModule = modules.find((module) => module.slug === slug);
-    console.log(selectedModule)
+    const selectedModule = await modules.find((module) => module.slug === slug);
+    await console.log(selectedModule)
     return (
         <main>
             <StyledBackButton />
