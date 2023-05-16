@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledMarquee = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #DCC;
   position: absolute;
   white-space: nowrap;

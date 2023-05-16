@@ -1,4 +1,10 @@
 import styled from "styled-components";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { modules } from "@/db/modulesData.js";
+import React from 'react';
+
+
 
 const StyledGrid = styled.ul`
     display: grid;
@@ -23,24 +29,23 @@ const CardList = styled.li`
     margin-top: 1rem;
 :hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 0.2s ease-in-out;
 }
 `
-// next Step is fetch the CardList from the arryay
+const StyledLink = styled(Link)`
+    text-decoration: none;
+`
 
-export default function StyledCardList(){
-    return(
-        <StyledGrid>
-            <CardList>Modul Eins</CardList>
-            <CardList>Modul Zwei</CardList>
-            <CardList>Modul Drei</CardList>
-            <CardList>Modul Vier</CardList>
-            <CardList>Modul Fünf</CardList>
-            <CardList>Modul Sechs</CardList>
-            <CardList>Modul Sieben</CardList>
-            <CardList>Modul Acht</CardList>
-            <CardList>Modul Neun</CardList>
-        </StyledGrid>
-    )
-}
+export default function StyledCardList() {
+  const router = useRouter();
+    return (
+      <StyledGrid>
+        {modules.map((module) => (
+          <StyledLink href={"/modules/" + module.slug} key={module.id}>
+            <CardList>{module.slug}</CardList>
+          </StyledLink>
+        ))}
+      </StyledGrid>
+    );
+  }
