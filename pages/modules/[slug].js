@@ -5,7 +5,6 @@ import StyledFooter from '@/components/StyledFooter'
 import StyledHead from '@/components/StyledHead'
 import StyledBackButton from "@/components/StyledBackButton";
 
-
 export default async function Module() {
     const router = useRouter();
     const { slug } = router.query;
