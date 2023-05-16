@@ -15,7 +15,7 @@ export default function Module() {
             <StyledBackButton />
             <StyledHead />
             <StyledModules>
-                {selectedModule.articles.map((article) => (
+                {selectedModule.articles?.map((article) => (
                     <StyledCard key={article?.id}>
                         <StyledCardTitle>{article?.title}</StyledCardTitle>
                         <article>{article?.text}</article>
