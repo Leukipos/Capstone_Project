@@ -64,11 +64,11 @@ export default function StyledMenuButton(){
             <StyledButton href="#" onClick={handleMenuClick}>≢</StyledButton>
             <StyledOverlay />
             <StyledMenu>
-                <StyledMenuItem href="main">Module</StyledMenuItem>
-                <StyledMenuItem href="contacts">Kontakte</StyledMenuItem>
-                <StyledMenuItem href="jokes">Witze</StyledMenuItem>
-                <StyledMenuItem href="emergency">S.O.S</StyledMenuItem>
-                <StyledMenuItem href="about">About</StyledMenuItem>
+                <StyledMenuItem href="/main">Module</StyledMenuItem>
+                <StyledMenuItem href="/contacts">Kontakte</StyledMenuItem>
+                <StyledMenuItem href="/jokes">Witze</StyledMenuItem>
+                <StyledMenuItem href="/emergency">S.O.S</StyledMenuItem>
+                <StyledMenuItem href="/about">About</StyledMenuItem>
             </StyledMenu>
             </>
         }
