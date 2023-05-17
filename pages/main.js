@@ -6,9 +6,9 @@ import StyledFooter from "@/components/StyledFooter";
 export default function CardList(){
     return(
         <main>
-            <StyledHead />;
-            <StyledCardList />;
-            <StyledFooter />;
+            <StyledHead />
+            <StyledCardList />
+            <StyledFooter />
         </main>
         
     )
