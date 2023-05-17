@@ -41,7 +41,7 @@ const StyledMenuItem = styled(Link)`
     height: 4rem;
     background-color: #546391;
     color: #DDC;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
