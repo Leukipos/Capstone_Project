@@ -10,7 +10,7 @@ export default function About(){
     return(
         <main>
         <StyledHeader/>
-            <StyledDiv>...Witze</StyledDiv>
+            <StyledDiv>...Einführung</StyledDiv>
         <StyledFooter/>
         </main>
     )

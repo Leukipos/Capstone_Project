@@ -65,8 +65,8 @@ export default function StyledMenuButton(){
             <StyledOverlay />
             <StyledMenu>
                 <li><StyledMenuItem href="/main">Module</StyledMenuItem></li>
+                <li><StyledMenuItem href="/intro">Einführung</StyledMenuItem></li>
                 <li><StyledMenuItem href="/contacts">Kontakte</StyledMenuItem></li>
-                <li><StyledMenuItem href="/jokes">Witze</StyledMenuItem></li>
                 <li> <StyledMenuItem href="/emergency">S.O.S</StyledMenuItem></li>
                 <li><StyledMenuItem href="/about">About</StyledMenuItem></li>
             </StyledMenu>
