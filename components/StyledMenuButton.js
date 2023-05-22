@@ -31,7 +31,6 @@ const StyledMenu = styled.ul`
     z-index: 9999;
     list-style-type: none;
     opacity: 0.9;
-    
 `
 const StyledMenuItem = styled(Link)`
     display: flex;
@@ -50,9 +49,7 @@ const StyledMenuItem = styled(Link)`
     :hover{
         cursor: pointer;
     }
-
 `
-
 export default function StyledMenuButton(){
     const [showOverlay, setShowOverlay] = useState(false);
     const handleMenuClick = () => {setShowOverlay(!showOverlay)}
@@ -71,11 +68,7 @@ export default function StyledMenuButton(){
                 <li><StyledMenuItem href="/about">About</StyledMenuItem></li>
             </StyledMenu>
             </>
-        }
-          
-        
-
-      
+        } 
     </div>
   );
 }

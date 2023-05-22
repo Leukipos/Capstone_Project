@@ -10,7 +10,7 @@ export default function Emergency(){
     return(
         <main>
         <StyledHeader/>
-            <StyledDiv>S.O.S</StyledDiv>
+            <StyledDiv>{"Am Ende wird alles gut. Wenn es nicht gut ist, ist es nicht das Ende"}</StyledDiv>
         <StyledFooter/>
         </main>
     )
