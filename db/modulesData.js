@@ -900,5 +900,50 @@ export const modules = [
         }
     ]
 },
+{   id: 21,
+    slug: "Wut",
+    articles: [
+        {
+            id: 1,
+            title: "Die Natur der Wut",
+            text: "Wut ist eine natürliche menschliche Emotion, die als Reaktion auf Frustration, Unfairness oder Verletzung entsteht. Es ist wichtig, Wut als Teil unseres emotionalen Spektrums anzuerkennen."
+        },
+        {
+            id: 2,
+            title: "Der Umgang mit Wut",
+            text: "Der Umgang mit Wut ist entscheidend für unsere emotionale Gesundheit. Es beinhaltet das Erlernen gesunder Ausdrucksformen, wie z.B. das Nutzen von Kommunikationstechniken oder das Finden von konstruktiven Lösungen."
+        },
+        {
+            id: 3,
+            title: "Die Folgen unkontrollierter Wut",
+            text: "Unkontrollierte Wut kann zu negativen Auswirkungen auf unsere Beziehungen, unsere Gesundheit und unser allgemeines Wohlbefinden führen. Es ist wichtig, Strategien zu entwickeln, um mit Wut auf gesunde Weise umzugehen."
+        },
+        {
+            id: 4,
+            title: "Wut und Selbstreflexion",
+            text: "Wut kann ein Hinweis auf unerfüllte Bedürfnisse oder tieferliegende emotionale Themen sein. Durch Selbstreflexion können wir verstehen, was die Wut auslöst und wie wir sie konstruktiv verarbeiten können."
+        },
+        {
+            id: 5,
+            title: "Wut und Kommunikation",
+            text: "Wut kann unsere Kommunikation beeinflussen. Es ist wichtig, während des Ausdrucks von Wut respektvoll und klar zu bleiben, um Missverständnisse zu vermeiden und produktive Gespräche zu führen."
+        },
+        {
+            id: 6,
+            title: "Wut und Stressbewältigung",
+            text: "Wut und Stress sind eng miteinander verbunden. Durch den Einsatz von Stressbewältigungstechniken wie z.B. Entspannungsübungen, Sport oder Meditation können wir unsere Wut besser kontrollieren und unsere emotionale Gesundheit fördern."
+        },
+        {
+            id: 7,
+            title: "Wut und Vergebung",
+            text: "Wut kann es schwierig machen, zu vergeben und loszulassen. Es ist ein Prozess, der Zeit und Selbstreflexion erfordert, aber die Vergebung kann zur emotionalen Heilung beitragen."
+        },
+        {
+            id: 8,
+            title: "Wut als Antrieb zur Veränderung",
+            text: "Wut kann uns auch dazu motivieren, positive Veränderungen herbeizuführen und für Gerechtigkeit einzutreten. Durch die Umleitung unserer Wut in konstruktive Kanäle können wir positive Veränderungen in unserem Leben und der Gesellschaft bewirken."
+        }
+    ]
+},
 ];
 
