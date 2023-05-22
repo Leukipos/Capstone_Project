@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import StyledMenuButton from "./StyledMenuButton";
 
 
 const StyledHeadBar = styled.header`
@@ -17,12 +18,16 @@ const StyledHeadBar = styled.header`
     justify-content: center;
     box-shadow: 0 0 12px -1px rgba(0, 0, 0, 0.8);
     z-index: 100;
+    
 `
 
 
 export default function StyledHead(){
-    return(
-        <StyledHeadBar>take my hand</StyledHeadBar>
-        // tbc -> burgermenue
+    return(<>
+        <StyledHeadBar>
+            take my hand
+        </StyledHeadBar>
+        <StyledMenuButton />
+        </>
     )
 }
