@@ -17,6 +17,6 @@ font-size: 1.5rem;
 
 export default function StyledBackButton(){
     return(
-        <StyledLink href="/main">⬅︎</StyledLink>
+        <StyledLink href="/Module">⬅︎</StyledLink>
         )
 }

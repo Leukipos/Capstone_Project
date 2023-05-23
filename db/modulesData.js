@@ -271,7 +271,7 @@ export const modules = [
     ]
 },
 {   id: 7,
-    slug: "Schuldgefühle",
+    slug: "Schuldgefuehle",
     articles: [
         {
             id: 1,
@@ -676,7 +676,7 @@ export const modules = [
     ]
 },
 {   id: 16,
-    slug: "Nein sagen",
+    slug: "Nein",
     articles: [
         {
             id: 1,

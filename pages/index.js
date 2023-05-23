@@ -39,7 +39,7 @@ export default function LandingPage() {
     <StyledDiv>
         <StyledHeadline>take my hand</StyledHeadline>
         <p>hey.. schön dass du hier bist</p>
-        <StyledLink href="/main">
+        <StyledLink href="/Module">
           los gehts...
       </StyledLink>
     </StyledDiv>

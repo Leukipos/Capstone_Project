@@ -17,11 +17,11 @@ export default function Module() {
         <main>
             <StyledBackButton />
             <StyledHead />
-            <StyledModules><h1>{selectedModule.slug}</h1>
+            <StyledModules>
                 {selectedModule.articles?.map((article) => (
-                    <StyledCard key={article?.id}>
-                        <StyledCardTitle>{article?.title}</StyledCardTitle>
-                        <article>{article?.text}</article>
+                    <StyledCard key={article.id}>
+                        <StyledCardTitle>{article.title}</StyledCardTitle>
+                        <article>{article.text}</article>
                     </StyledCard>
                 ))}
             </StyledModules>
