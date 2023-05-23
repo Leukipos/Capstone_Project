@@ -3,7 +3,7 @@ import StyledFooter from "@/components/StyledFooter";
 import styled from "styled-components";
 import { StyledCard, StyledModules, StyledCardTitle } from "@/components/StyledCard";
 
-const StyledArticle = styled.article`
+const StyledArticle = styled.div`
     background-color: #f55;
     border: 3px solid #334;
     padding: 10px;
