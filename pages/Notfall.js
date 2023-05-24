@@ -18,13 +18,16 @@ export default function Emergency(){
         <main>
         <StyledHeader/>
         <StyledModules>
-            <StyledCard><StyledCardTitle>Du brauchst jetzt Hilfe?</StyledCardTitle>
+            <StyledCard>
+                <StyledCardTitle>Du brauchst jetzt Hilfe?</StyledCardTitle>
                 <article>Es geht dir gar nicht gut?<br/>Du kannst nicht mehr?</article>
                 </StyledCard>
-            <StyledCard><StyledCardTitle>Rufe sofort diese Nummer an:</StyledCardTitle>
+            <StyledCard>
+                <StyledCardTitle>Rufe sofort diese Nummer an:</StyledCardTitle>
                 <StyledArticle>0800 111 0 111</StyledArticle>
                 </StyledCard>    
-            <StyledCard><StyledCardTitle>Zitat von Oscar Wild:</StyledCardTitle>
+            <StyledCard>
+                <StyledCardTitle>Zitat von Oscar Wild:</StyledCardTitle>
                 <article>Am Ende wird alles gut.<br/>Wenn es nicht gut ist,<br/>ist es nicht das Ende.</article>
                 </StyledCard>
             </StyledModules>

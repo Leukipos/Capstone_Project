@@ -41,7 +41,7 @@ export default function LandingPage() {
         <p>hey.. schön dass du hier bist</p>
         <StyledLink href="/Module">
           los gehts...
-      </StyledLink>
+        </StyledLink>
     </StyledDiv>
 )
 }
