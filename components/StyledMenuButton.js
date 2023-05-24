@@ -72,11 +72,7 @@ export default function StyledMenuButton(){
                 <li><StyledMenuItem href="/Impressum" isActive={router.pathname === '/Impressum'}>Impressum</StyledMenuItem></li>
             </StyledMenu>
             </>
-<<<<<<< HEAD
         }      
-=======
-        } 
->>>>>>> main
     </div>
   );
 }
