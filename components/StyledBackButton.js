@@ -13,10 +13,8 @@ font-size: 1.5rem;
     cursor: pointer;
 }
 `
-
-
 export default function StyledBackButton(){
     return(
-        <StyledLink href="/main">⬅︎</StyledLink>
+        <StyledLink href="/Module">⬅︎</StyledLink>
         )
 }
