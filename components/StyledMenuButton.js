@@ -3,7 +3,6 @@ import Link from "next/link";
 import styled from "styled-components";
 import { useState } from 'react';
 
-
 const StyledButton = styled.button`
 z-index: 9999;
 position: fixed;
@@ -34,7 +33,6 @@ const StyledMenu = styled.ul`
     z-index: 9999;
     list-style-type: none;
     opacity: 0.9;
-  
 `
 const StyledMenuItem = styled(Link)`
     display: flex;

@@ -3,9 +3,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { modules } from "@/db/modulesData.js";
 
-
-
-
 const StyledGrid = styled.ul`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -36,7 +33,6 @@ const CardList = styled.li`
 const StyledLink = styled(Link)`
     text-decoration: none;
 `
-
 export default function StyledCardList() {
   const router = useRouter();
     return (

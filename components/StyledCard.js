@@ -32,7 +32,6 @@ export const StyledModules = styled.ul`
     margin-top: 5rem;
     margin-bottom: 4rem;
     width: 22rem;
-
 `
 
 
