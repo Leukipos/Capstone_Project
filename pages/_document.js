@@ -26,7 +26,10 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head/>
+        <Head>
+          <title>TakeMyHand</title>
+          <meta name="description" content="Help yourself by educating yourself emotionally."></meta>
+        </Head>
         <body>
           <Main />
           <NextScript />
