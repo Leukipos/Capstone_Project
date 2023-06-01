@@ -26,7 +26,11 @@ const StyledLink = styled(Link)`
     color: #EBE1CA;
     text-decoration: none;
     font-weight: 100;
-    box-shadow: 0 0 80px 2px #EBE1CA, 0 0 5px 0 #ffffff, inset 0 0 30px -5px #EBE1CA;
+    box-shadow:
+      0 0 80px 2px #EBE1CA,
+      0 0 250px 80px #EBE1CA,
+      0 0 5px 0 #fff,
+      inset 0 0 30px -5px #EBE1CA;
     margin-top: 20vh;
   :hover{
     cursor: pointer;
