@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link"
+import Image from "next/image";
 
 const StyledLink = styled(Link)`
 z-index: 200;
@@ -15,6 +16,12 @@ font-size: 1.5rem;
 `
 export default function StyledBackButton(){
     return(
-        <StyledLink href="/Module">⬅︎</StyledLink>
+        <StyledLink href="/Module">
+            <Image  src={require('/public/images/ButtonBack.gif')}
+                                    width={30}
+                                    height={30}
+                                    alt='⬅︎'
+                            />
+        </StyledLink>
         )
 }

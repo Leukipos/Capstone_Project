@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from "next/link";
+import Image from 'next/image';
 import styled from "styled-components";
 import { useState } from 'react';
 
@@ -58,10 +59,22 @@ export default function StyledMenuButton(){
     const router = useRouter();
   return (
     <div>
-        {!showOverlay && <StyledButton onClick={handleMenuClick}>≡</StyledButton>}
+        {!showOverlay && <StyledButton onClick={handleMenuClick}>
+                            <Image  src={require('/public/images/ButtonBurgerFalse.gif')}
+                                    width={30}
+                                    height={30}
+                                    alt='≡'
+                            />
+                        </StyledButton>}
         {showOverlay && 
             <>
-            <StyledButton onClick={handleMenuClick}>≢</StyledButton>
+            <StyledButton onClick={handleMenuClick}>
+                            <Image  src={require('/public/images/ButtonBurgerTrue.gif')} 
+                                    width={30}
+                                    height={30}
+                                    alt='≢'
+                            />
+                </StyledButton>
             <StyledOverlay />
             <StyledMenu>
                 <li><StyledMenuItem href="/" isActive={router.pathname === '/'}>Startseite</StyledMenuItem></li>

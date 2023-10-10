@@ -2,6 +2,7 @@ import StyledHeader from "@/components/StyledHead";
 import StyledFooter from "@/components/StyledFooter";
 import styled from "styled-components";
 import { StyledCard, StyledModules, StyledCardTitle } from "@/components/StyledCard";
+import Image from "next/image";
 
 export default function About(){
     return(
