@@ -20,7 +20,11 @@ export default function Emergency(){
         <StyledModules>
             <StyledCard>
                 <StyledCardTitle>Du brauchst jetzt Hilfe?</StyledCardTitle>
-                <article>Es geht dir gar nicht gut und du kannst nicht mehr?<br/><br/>Damit bist du nicht allein!<br/><br/>Tatsächlich geht es vielen anderen auch so.<br/><br/>Aktzeptiere deine Gefühle und deinen Zustand und betrachte es als Chance um etwas zu ändern.<br/><br/>Lass dir helfen...</article>
+                <article>Es geht dir gar nicht gut und du kannst nicht mehr?
+                        <br/><br/>Damit bist du nicht allein!
+                        <br/><br/>Tatsächlich geht es vielen anderen auch so.
+                        <br/><br/>Manchmal braucht man aber jemanden der einen zur Seite steht..
+                        <br/><br/>..lass dir helfen...</article>
                 </StyledCard>
             <StyledCard>
                 <StyledArticle>0800 111 0 111</StyledArticle>
