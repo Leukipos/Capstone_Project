@@ -5,12 +5,12 @@ import { StyledCard, StyledModules, StyledCardTitle } from "@/components/StyledC
 
 const StyledArticle = styled.div`
     background-color: #f55;
-    border: 3px solid #334;
-    padding: 10px;
+    border: 5px solid #fff;
+    padding: 15px;
     border-radius: 1rem;
-    color: #FFF;
-    font-size: 1.6rem;
-    font-weight: 500;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 800;
     text-align: center;
 `
 export default function Emergency(){
@@ -20,15 +20,14 @@ export default function Emergency(){
         <StyledModules>
             <StyledCard>
                 <StyledCardTitle>Du brauchst jetzt Hilfe?</StyledCardTitle>
-                <article>Es geht dir gar nicht gut?<br/>Du kannst nicht mehr?</article>
+                <article>Es geht dir gar nicht gut und du kannst nicht mehr?<br/><br/>Damit bist du nicht allein!<br/><br/>Tatsächlich geht es vielen anderen auch so.<br/><br/>Aktzeptiere deine Gefühle und deinen Zustand und betrachte es als Chance um etwas zu ändern.<br/><br/>Lass dir helfen...</article>
                 </StyledCard>
             <StyledCard>
-                <StyledCardTitle>Rufe sofort diese Nummer an:</StyledCardTitle>
                 <StyledArticle>0800 111 0 111</StyledArticle>
                 </StyledCard>    
             <StyledCard>
                 <StyledCardTitle>Zitat von Oscar Wild:</StyledCardTitle>
-                <article>Am Ende wird alles gut.<br/>Wenn es nicht gut ist,<br/>ist es nicht das Ende.</article>
+                <article>Am Ende wird alles gut. Wenn es nicht gut ist, ist es nicht das Ende.</article>
                 </StyledCard>
             </StyledModules>
         <StyledFooter/>

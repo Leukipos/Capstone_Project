@@ -22,7 +22,7 @@ export default function About(){
                 </StyledCard>
                 <StyledCard>
                     <StyledCardTitle>Erste Hilfe bei Trauer</StyledCardTitle>
-                    <article>Die Berater und Beraterinnen sind deshalb an 365 Tagen im Jahr und rund um die Uhr für dich da.<br/><br/>Telefon:<br/><strong>0800 111 0 111<br/><br/>0800 111 0 222</strong></article>
+                    <article>Die Berater und Beraterinnen sind an 365 Tagen im Jahr und rund um die Uhr für dich da.<br/><br/>Telefon:<br/><strong>0800 111 0 111<br/><br/>0800 111 0 222</strong></article>
                 </StyledCard>    
                 <StyledCard>
                     <StyledCardTitle>Gewalt gegen Frauen</StyledCardTitle>
