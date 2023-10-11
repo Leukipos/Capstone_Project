@@ -5,7 +5,7 @@ import Image from "next/image";
 const StyledLink = styled(Link)`
 z-index: 200;
 position: fixed;
-top: 1rem;
+top: 0.8rem;
 left: calc(50% - 170px);
 text-decoration: none;
 color: #DDC;
@@ -18,8 +18,8 @@ export default function StyledBackButton(){
     return(
         <StyledLink href="/Module">
             <Image  src={require('/public/images/ButtonBack.gif')}
-                                    width={30}
-                                    height={30}
+                                    width={35}
+                                    height={35}
                                     alt='⬅︎'
                             />
         </StyledLink>
