@@ -24,13 +24,13 @@ const StyledOverlay = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 9995;
 `
 const StyledMenu = styled.ul`
     position: fixed;
     top: 2.3rem;
-    right: calc(50% - 177px);
+    right: calc(50% - 155px);
     z-index: 9999;
     list-style-type: none;
     opacity: 0.9;
@@ -61,8 +61,8 @@ export default function StyledMenuButton(){
     <div>
         {!showOverlay && <StyledButton onClick={handleMenuClick}>
                             <Image  src={require('/public/images/ButtonBurgerFalse.gif')}
-                                    width={30}
-                                    height={30}
+                                    width={35}
+                                    height={35}
                                     alt='≡'
                             />
                         </StyledButton>}
@@ -70,8 +70,8 @@ export default function StyledMenuButton(){
             <>
             <StyledButton onClick={handleMenuClick}>
                             <Image  src={require('/public/images/ButtonBurgerTrue.gif')} 
-                                    width={30}
-                                    height={30}
+                                    width={35}
+                                    height={35}
                                     alt='≢'
                             />
                 </StyledButton>
