@@ -7,13 +7,11 @@ import { useState } from 'react';
 const StyledButton = styled.button`
 z-index: 9999;
 position: fixed;
-top: 0.2rem;
+top: 1rem;
 right: calc(50% - 165px);
-text-decoration: none;
-color: #DDC;
-font-size: 3rem;
 background: none;
 border: none;
+padding: 0rem;
 :hover{
     cursor: pointer;
 }

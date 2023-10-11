@@ -5,11 +5,8 @@ import Image from "next/image";
 const StyledLink = styled(Link)`
 z-index: 200;
 position: fixed;
-top: 0.8rem;
-left: calc(50% - 170px);
-text-decoration: none;
-color: #DDC;
-font-size: 1.5rem;
+top: 1rem;
+left: calc(50% - 165px);
 :hover{
     cursor: pointer;
 }
