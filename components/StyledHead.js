@@ -11,7 +11,7 @@ const StyledHeadBar = styled.header`
     height: 4rem;
     background-color: #334;
     color: #DCC;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     display: flex;
     align-items: center;
