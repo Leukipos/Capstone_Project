@@ -58,19 +58,21 @@ export default function StyledMenuButton(){
   return (
     <div>
         {!showOverlay && <StyledButton onClick={handleMenuClick}>
-                            <Image  src={require('/public/images/ButtonBurgerFalse.gif')}
+                            <Image  src="/images/ButtonBurgerFalse.gif"
                                     width={35}
                                     height={35}
                                     alt='≡'
+                                    role='menu open button'
                             />
                         </StyledButton>}
         {showOverlay && 
             <>
             <StyledButton onClick={handleMenuClick}>
-                            <Image  src={require('/public/images/ButtonBurgerTrue.gif')} 
+                            <Image  src="/images/ButtonBurgerTrue.gif" 
                                     width={35}
                                     height={35}
                                     alt='≢'
+                                    role='menu close button'
                             />
                 </StyledButton>
             <StyledOverlay />
@@ -79,6 +81,7 @@ export default function StyledMenuButton(){
                 <li><StyledMenuItem href="/Module" isActive={router.pathname === '/Module'}>Module</StyledMenuItem></li>
                 <li><StyledMenuItem href="/Einfuehrung" isActive={router.pathname === '/Einfuehrung'}>Einführung</StyledMenuItem></li>
                 <li><StyledMenuItem href="/Kontakte" isActive={router.pathname === '/Kontakte'}>Kontakte</StyledMenuItem></li>
+                <li><StyledMenuItem href="/Lesezeichen" isActive={router.pathname === '/Lesezeichen'}>Lesezeichen</StyledMenuItem></li>
                 <li> <StyledMenuItem href="/Notfall" isActive={router.pathname === '/Notfall'}>Notfall</StyledMenuItem></li>
                 <li><StyledMenuItem href="/Impressum" isActive={router.pathname === '/Impressum'}>Impressum</StyledMenuItem></li>
             </StyledMenu>

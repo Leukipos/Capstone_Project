@@ -14,11 +14,12 @@ left: calc(50% - 165px);
 export default function StyledBackButton(){
     return(
         <StyledLink href="/Module">
-            <Image  src={require('/public/images/ButtonBack.gif')}
-                                    width={35}
-                                    height={35}
-                                    alt='⬅︎'
-                            />
+            <Image  src="/images/ButtonBack.gif"
+                    width={35}
+                    height={35}
+                    alt='⬅︎'
+                    role='back button'
+                />
         </StyledLink>
         )
 }
