@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledBookmark = styled.button`
+const StyledBookmark = styled.button`
     z-index: 99;
     position: absolute;
     top: -10px;
@@ -10,8 +10,8 @@ export const StyledBookmark = styled.button`
     background-color: #334;
     border-radius: 3px 3px 50% 50%;
     border: none;
-    width: 25px;
-    height: 30px;
+    width: 1.7rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
