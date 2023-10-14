@@ -11,13 +11,8 @@ export default function Bookmark(){
         <StyledModules>
             <StyledCard>
                 <StyledBookmark/>
-                <StyledCardTitle>Lesezeichen</StyledCardTitle>
-                <article>hier findest du deine gespeicherten Artikel</article>
-            </StyledCard>
-            <StyledCard>
-                <StyledBookmark/>
                 <StyledCardTitle>Modulname</StyledCardTitle>
-                <article>Artikeltext</article>
+                <article>gespeicherter Artikel</article>
             </StyledCard>
         </StyledModules>
         <StyledFooter/>

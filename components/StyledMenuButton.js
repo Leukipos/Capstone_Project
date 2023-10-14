@@ -16,7 +16,7 @@ padding: 0rem;
     cursor: pointer;
 }
 `
-const StyledOverlay = styled.div`
+const StyledOverlay = styled.div` // greyout the app for more visibility of the menu
     position: fixed;
     top: 0;
     left: 0;
