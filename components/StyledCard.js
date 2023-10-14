@@ -13,12 +13,7 @@ export const StyledCard = styled.li`
     align-items: top;
     justify-content: center;
     margin-top: 1rem;
-    padding: 0.8rem;
-:hover{
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    }
+    padding: 1.5rem 0.8rem 0.8rem 0.8rem;
 `
 export const StyledCardTitle = styled.p`
     margin: 0 0 0.8rem 0;

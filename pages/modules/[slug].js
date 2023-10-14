@@ -4,6 +4,7 @@ import { modules } from "@/db/modulesData.js";
 import StyledFooter from '@/components/StyledFooter'
 import StyledHead from '@/components/StyledHead'
 import StyledBackButton from "@/components/StyledBackButton";
+import StyledBookmark from "@/components/StyledBookmark";
 
 export default function Module() {
     const router = useRouter();
@@ -21,6 +22,7 @@ export default function Module() {
                 {selectedModule.articles?.map((article) => (
                     <StyledCard key={article.id}>
                         <StyledCardTitle>{article.title}</StyledCardTitle>
+                        <StyledBookmark/>
                         <article>{article.text}</article>
                     </StyledCard>
                 ))}

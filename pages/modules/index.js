@@ -39,7 +39,7 @@ export default function StyledCardList() {
       <StyledGrid>
         {modules.map((module) => (
           <StyledLink href={"/modules/" + module.slug} key={module.id}>
-            <CardList>{module.slug}</CardList>
+            <CardList>{module.slug} </CardList>
           </StyledLink>
         ))}
       </StyledGrid>
