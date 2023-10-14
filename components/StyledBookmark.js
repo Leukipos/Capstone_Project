@@ -19,7 +19,7 @@ const StyledBookmark = styled.button`
     :hover{
     cursor: pointer;
     transform: scale(1.2);
-    transition: all 0.2s ease-in-out;
+    // transition: all 0.5s ease-in-out;
 }
     `
 
