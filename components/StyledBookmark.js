@@ -24,7 +24,7 @@
     }
         `
 
-    export default function bookmark(){
+    export default function Bookmark(){
         const [bookmarked, setBookmarked] = useState(false);
 
         const handleToggleBookmark = () => {
